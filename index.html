@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework #11-12</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
+    <script src="js/x-carousel.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<!--Carousel-->
+<div class="wrapper">
+    <h1 class="header">X-Carousel</h1>
+    <div class="carousel_wrapper">
+        <a href="#" class="carousel_control_prev">&lsaquo;</a>
+        <div class="carousel">
+            <ul class="carousel_list">
+                <li class="carousel_item"><img src="img/shpic.jpg" alt="shpic"></li>
+                <li class="carousel_item"><img src="img/jackRassel.jpg" alt="jackRassel"></li>
+                <li class="carousel_item"><img src="img/chihuahua.jpg" alt="chihuahua"></li>
+                <li class="carousel_item"><img src="img/toy.jpg" alt="toy"></li>
+                <li class="carousel_item"><img src="img/york.jpg" alt="york"></li>
+            </ul>
+        </div>
+        <a href="#" class="carousel_control_next">&rsaquo;</a>
+    </div>
+
+<!--Template-->
+    <script type="text/template" id="dogs">
+        <% for (var i = 0; i < data.length; i++) { %>
+        <div class="dogBreed_wrapper">
+            <div class="dogBreed">
+                <h1 class="breed"><%= data[i].breed %></h1>
+                <p class="info"><%= data[i].origin %></p>
+                <p class="info"><%= data[i].lifeExpectancy %></p>
+                <p class="info"><%= data[i].description %></p>
+            </div>
+        </div>
+        <% }; %>
+    </script>
+</div>
+
+</body>
+</html>
