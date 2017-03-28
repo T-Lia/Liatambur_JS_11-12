@@ -30,5 +30,6 @@
 
             showPicture(picNumber);
         });
+        return this;
     };
 })(jQuery);
