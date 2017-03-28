@@ -14,38 +14,38 @@
     text-align: center;
 }
 
-.carousel_wrapper {
+.x-carousel_wrapper {
     width: 720px;
     margin: 15px auto;
     overflow: hidden;
 }
 
-.carousel {
+.x-carousel {
     width: 620px;
     overflow: hidden;
     float: left;
 }
 
-.carousel_list {
+.x-carousel_list {
     position: relative;
     width: 10000px;
     padding: 0;
 }
 
-.carousel_item {
+.x-carousel_item {
     float: left;
     display: block;
     margin-right: 25px;
 }
 
-.carousel_item img {
+.x-carousel_item img {
     max-width: 620px;
     border-radius: 5px;
     border: 10px solid #fff;
     box-shadow: 0 0 2px #999;
 }
 
-.carousel_control_prev, .carousel_control_next {
+.x-carousel_control_prev, .x-carousel_control_next {
     float: left;
     display: block;
     width: 30px;
@@ -61,15 +61,15 @@
     box-shadow: 0 0 2px #999;
 }
 
-.carousel_control_prev {
+.x-carousel_control_prev {
     margin-right: 20px;
 }
 
-.carousel_control_next {
+.x-carousel_control_next {
     margin-left: 20px;
 }
 
-.carousel_control_prev:hover, .carousel_control_next:hover {
+.x-carousel_control_prev:hover, .x-carousel_control_next:hover {
     background-color: #786e65;
 }
 

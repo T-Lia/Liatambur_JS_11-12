@@ -1,7 +1,7 @@
 // Carousel
 
 $(function () {
-    $('.carousel').xcarousel();
+    $('.x-carousel').xcarousel();
 });
 
 
